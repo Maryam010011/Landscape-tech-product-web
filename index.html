@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Landscape tech product </title>
+    <meta name="description" content="A fast, modern SaaS to automate your daily work. Try NovaStack free." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header class="site-header" style="background-color: rgba(201, 9, 9, 0.849);">
+      <a href="#" class="logo" aria-label="NovaStack Home">
+        
+        <span class="logo-text"style="color: white;">Apple ProServe</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">☰</button>
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="#features"style="color: white;bord;">Features</a></li>
+          <li><a href="#testimonials"style="color: white;">Testimonials</a></li>
+          <li><a href="#pricing"style="color: white; ">Pricing</a></li>
+          <li><a href="#cta" class="btn btn-small"style="color: white;">Get Started</a></li>
+        </ul>
+      </nav>
+
+      <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme" title="Toggle theme">🌙</button>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">New</p>
+          <h1>Supercharge your workflow with AI-powered automation</h1>
+          <p class="subhead">Ship faster, focus on what matters. Apple ProServe connects your tools and automates busywork in minutes.</p>
+          <div class="hero-actions">
+            <a href="#cta" class="btn btn-primary">Start free trial</a>
+            <a href="#features" class="btn btn-ghost">See how it works</a>
+          </div>
+          <div class="hero-trust">
+            <img src="data:image/png;base64,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" alt="Company logo" />
+            <img src="data:image/png;base64,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" alt="Company logo" />
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAhFBMVEX///8AAAD6+vpiYmJvb29ycnKpqamVlZWCgoL4+Pijo6Pq6upkZGSnp6fj4+PGxsYQEBB8fHy1tbWdnZ0ICAjc3Nzw8PAlJSUsLCzPz88zMzPR0dGvr6/o6Oi7u7tJSUlBQUFRUVEeHh6QkJDBwcFZWVmAgIBEREQ7OzsXFxdVVVUhISHweGQBAAAJJ0lEQVR4nO2d6ZqqOBCGaUQWQRAREFFcALdz//c3ILYQqARUliaT98c8M9MB8klSqUqKhOMYDAaDwWAwGIwE3rG9YGuFsjkVBC1hkv5DmJpyaImBZ6vK0DX8DGeX6JqHwnG9+Klhtd5rspVo1R1+6Go3w/GX0nmyr5dWEupeYjPceurQ9SegOLZhadc3lVWUbuIwsJ2/13b1aDY93r4Tl7O4CFZg/xmVvB6YDfrb27j76XZ4lYq9lPetaytwNbe+M5g83pPiTZfyMtb3MBrgVSr6UnijYS5O7npzvR6eXK+btXt6p2HHot3rq7RFodHLcw8TM7S2QWT4vm3b+ovkP3zfi4LtLDS1/brRvSaW3486xZ4fyb/+yr0etVA07KZDOO/oxjYU4qtb81ovUvemRxfJjdM9nq3A333knfCqH83lmq4dW3bbmgooEalx3q7Tmad+7Xopqr81Lyf8c9aTZTddkvdDvLyNFgY6dJHikF1rXnUU6DdRI0u44n9M0+hApI194FU29PID+Z2/TKyIMLnvTZJEaX+fCIk1Wnp6uZiiG+ER98yV0bK8tM5T4EGLw3S7Q0o5urcNJ4h1nOJvahXLubGcmCf0nTvBeQ85g/sd7pZfYAAvLyo2Td6OLDMGTL/Y/JaJqZpKS8RiqkZYdZukDgRy3AFpJgfZy+vBO74oHHDm4RbAN/RxDf92ncy8gs3ifQl9k6cuXiHHBfkTNnKQ9zzHn5t4q/CoEGjhVbJHuxYsIxeiGNIl/1vYiUDOiZ/3j5f5k9OO4hJr+rgCCmyhjl36ZQ7mNr9SNbTnWOx2NSZG6d33+ZCr2KJWW8sMrWJQ+bDhpXcrjy7UeZyKtDoSyHH7n3vwen2qqL0RWVTa1XLV+Fo3nr1+VcfQftbQ0NsO+utBuyCurxlCyaB6b15+3Oq/lkfvwQP3QrJlgXCRMVq/1F9RYi1HPU3GOUH80YSMW7DwyvGTO6yO8x6m4uzZx2F9blD586f3cMPOm2hT4wlh/t5k9sVN3K6bqv/NzMzT11p+cYsFxj9qkW+ql7lvdqNZCwxhD9bGqq/G4nZyXXdd9XVOXmJGq85aUtj9d7o1mJoy6+v3PbyEV3bQztJ8GUSG56dUbe5B5YCBNC3teUYULOeSLFzwpnra04QbKHG1D5NAGA3YAddakKv/z0V+QMXZedIdfJ9mbzOKYiVO+id7QLmGg8IEuNSWqiZN7lpXgaj07Cukj+PmzRTCsZA9KRUTe11f1IXiswVM6zGaedcR5iFI9HHsaT74hSLltb/hfKlm48INF+0VfbvzAEun/qsVYedh1GNVT5UDdkrC+O3vR9xr7hZFvNTUkBfwunI0rIVUMh9xLQ22wOaE6aBu4i1AozieYCJT72JhdhfwNkCVDqQ5hUYu3hx/vZFEhV2uUzRCFwlGzm+ikNDHdp2uw7SB0kDgadBG+DUNYq3NSBKFMDQwpvHQdfyOBqFWR/PXfVF2YAGWQ9fxO2zCYu6Tv24ta1Br50Xdv5yr1wCl1tTcB0/s+pJav43g842DbZ3C2dA1/BajZgJt1f38Z8foNcunbt+he/vUGNPLcLmVbVGz0DFyny0FP3/8oM8Zwo6o8duwczzjwSYrHL+h4RxyiDh+Q8MpxJSGzdDVawOi3yYMXbs2EEkKu8nA6xmDlLkxep8txSaYmhMFpjQxpke8wsO4ZxJ/IQTBk7GHvxkEY3oeum7tEOAVjj78zSD4bR1k3A+Bgl/r7iZdu3+w+dynoWvWFiZO4XHomrUF1m+jIPzNAD4cydgOXbO2wCadUOGzpeCSTjrMue8ZXNJJTEGA/wTjt41+ySIHs3jR3acvvYNJOqEi/M1wwOUZOsLfJ+AnNht6DA0mCKbGZ0sBk056ybvvC9Bvo2DJIseGTA2cGz5SHGCddDHyNBMUKOnkQMc82y+A3ybQ47OlAH4bFUsWOcDixcgz9srolcWLf1SZ0sTUVObbrtSEv08qxjSmy5QCSSdU+WwplaQTisLfDL2skJIlixylnMFHm6Hh+NL3ktQsWeSUvv+lKvzNKPlt1CxZ5JSShalZsshBk05WlPlsKc69qHAz8u9IQBC/7U7TTOIviN9G0ZJFDpJ0Qln4m4H4bRQtWeTwRYU0Ghpk8eJGW3CYUUg6uQxdl24o7H9F2NJ0zBQWLwibDIwZOw8RqQt/M/Kkk5FvMoBFeW1YuqfRZ0t5LV4IdA4WhZ1OqPTZUl57llIY/mY4/54eDYXh75PnftkbSk0p9wqC9zQGhxnPpBMqPliDiSg3pUkQvKDZZ0txshCRXkPzTDpZ0+rRpDz8tpheU/pcvKBwySLnkXRCrc+Wki5eLCg2pdmOpFQuWeQkxvRIa/ibIVHts6VEVPtsKTp1GXtlFJdmn+3B/Ydmny1FpmK/FhJzbegadI1BySYDeHZ0ezQMBoPBYDAYDAaDwWAwGAwGg8FgMBgMBoPBYDAYDMpReBglT7jnwTJKMSMfvgeHlsBXAlOHVnL+d5oAo+UnoodwgULCumNOIQrJQ0thKmB3knBCAbpcIBzK3hz8UUZ5EuUMLlD4yFAFCxSPrzz/kI6vhvd0v7WzWzbuxK1CepoDHlNZ/KpChc5hQU4gTffJwicPOwfoCW3taRdBR26dxGIfcLSKgpVUTCOFFE6QBDeyQs6eVK53rdY+vXGWVsosfcj+8a+WWE6/82YoItqAUoWuJBYpfXRRo5DjIwt5gDXvIANw/vPxCVSpwitxY+Q6hb2QGpQPNz96KCTmd1OhcMTvMIwnAHFhPEwV3mKthFDoSmSF3qN4Gbntj2+wCsFN85FvYcHRAilBVggfp/Sv7e8asAqdqikvGSVY4aKxQviMk9YP4sH3Q2jIR8dDsIYjUsgphoRioftCKOIcRbQO7yo8yEWmt34Vvo+ivasQHYrT/cH/tsK0776nEH20/ecVKoBCvCc9tMJgLgLM0a7oBM8u+PQrgX4oBMsSvwPe0ArlqplLQT7ZDoBTHssKK5z+ikIdOIAkiY6KRUEBtQpfzXZohZwPnCJztEuXAhQUnoE/m68hVawqXCfxWNsKo1ibzGBLswtLTqkmFQvuppDjOtEKQeSs6tsWWnmU/BUNePXkllOqDqphMBgMBoPB+D/zH1LFjWQQ9eV1AAAAAElFTkSuQmCC" alt="Company logo" />
+            <span>Trusted by 2,000+ teams</span>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img src="images/Applepro.png" alt="Product preview" class="hero-image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section" id="features" >
+      <div class="container">
+        <header class="section-header">
+          <h2>Everything you need to automate work</h2>
+          <p>Connect apps, build flows, and monitor results all in one place.</p>
+        </header>
+
+        <div class="feature-grid" >
+          <article class="card feature" style="background-color: rgb(130, 235, 130); color : black;">
+          
+            <h3>200+ Integrations</h3>
+            <p style ="color : rgb(133, 13, 5);">Plug into your favorite tools like Slack, Notion, GitHub, and more.</p>
+          </article>
+          <article class="card feature" style="background-color: rgb(130, 235, 130); color : black;">
+          
+            <h3>No-code Builder</h3>`
+            <p style ="color : rgb(133, 13, 5);">Drag-and-drop blocks to create powerful automations in minutes.</p>
+          </article>
+          <article class="card feature" style="background-color: rgb(130, 235, 130);color : black;">
+           
+            <h3>Real-time Insights</h3>
+            <p style ="color : rgb(133, 13, 5);">Track performance, errors, and throughput with live dashboards.</p>
+          </article>
+          <article class="card feature" style="background-color: rgb(130, 235, 130);color : black;">
+           
+            <h3>Enterprise Security</h3>
+            <p style ="color : rgb(133, 13, 5);">SSO, role-based access, and audit logs out of the box.</p>
+          </article>
+          <article class="card feature"style="background-color: rgb(130, 235, 130); color : black;">
+           
+            <h3>Blazing Fast</h3>
+            <p style ="color : rgb(133, 13, 5);">Optimized for speed with edge caching and parallel execution.</p>
+          </article>
+          <article class="card feature" style="background-color: rgb(130, 235, 130);color : black;">
+            
+            <h3>AI Assist</h3>
+            <p style ="color : rgb(133, 13, 5);">Get smart suggestions and fix issues automatically.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section alt" id="testimonials">
+      <div class="container">
+        <header class="section-header">
+          <h2>Loved by modern teams</h2>
+          <p>What customers say about Apple ProServe</p>
+        </header>
+
+        <div class="testimonial-grid">
+          <figure class="card testimonial">
+            <blockquote>“We automated code reviews and cut release time by 40%.”</blockquote>
+            <figcaption>
+              <img src="https://picsum.photos/seed/u1/64/64" alt="User avatar" />
+              <div>
+                <strong>Aisha Khan</strong>
+                <span>Eng Manager, ByteForge</span>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="card testimonial">
+            <blockquote>“The no‑code builder is insanely good. Non‑devs ship flows too.”</blockquote>
+            <figcaption>
+              <img src="https://picsum.photos/seed/u2/64/64" alt="User avatar" />
+              <div>
+                <strong>Rohit Verma</strong>
+                <span>Ops Lead, Cloudify</span>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="card testimonial">
+            <blockquote>“Reliable, secure, and the support is top‑notch.”</blockquote>
+            <figcaption>
+              <img src="https://picsum.photos/seed/u3/64/64" alt="User avatar" />
+              <div>
+                <strong>Sana Patel</strong>
+                <span>CTO, DevNest</span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <header class="section-header">
+          <h2>Simple, transparent pricing</h2>
+          <p>Start free. Upgrade anytime.</p>
+        </header>
+
+        <div class="pricing-grid">
+          <article class="card pricing">
+            <h3>Starter</h3>
+            <p class="price"><span>$0</span> / month</p>
+            <ul class="list">
+              <li>Up to 2 projects</li>
+              <li>50 runs/day</li>
+              <li>Community support</li>
+            </ul>
+            <a href="#cta" class="btn btn-primary">Get Started</a>
+          </article>
+          <article class="card pricing popular">
+            <div class="badge">Popular</div>
+            <h3>Pro</h3>
+            <p class="price"><span>$19</span> / month</p>
+            <ul class="list">
+              <li>Unlimited projects</li>
+              <li>10k runs/day</li>
+              <li>Email support</li>
+            </ul>
+            <a href="#cta" class="btn btn-primary">Start 14‑day trial</a>
+          </article>
+          <article class="card pricing">
+            <h3>Business</h3>
+            <p class="price"><span>$49</span> / month</p>
+            <ul class="list">
+              <li>SAML SSO</li>
+              <li>Priority support</li>
+              <li>Audit logs</li>
+            </ul>
+            <a href="#cta" class="btn btn-ghost">Contact sales</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta" id="cta">
+      <div class="container cta-grid">
+        <div class="cta-copy">
+          <h2>Automate your workflow today</h2>
+          <p>Join thousands of teams saving hours every week with Apple ProServe.</p>
+        </div>
+        <form class="cta-form" action="#" method="post" onsubmit="return false">
+          <label class="sr-only" for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required />
+          <button class="btn btn-primary" type="submit">Get started</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="site-footer" style="background-color: rgba(201, 9, 9, 0.849);">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+         
+          <span class="logo-text"style="color: white;">Apple ProServe</span>
+        </div>
+        <ul class="footer-links">
+          <li><a href="#"style="color: white;">Privacy</a></li>
+          <li><a href="#"style="color: white;">Terms</a></li>
+          <li><a href="#"style="color: white;">Support</a></li>
+        </ul>
+        <p class="copyright"style="color: white;">© <span id="year"></span> Apple ProServe Inc.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+
